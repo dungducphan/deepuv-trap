@@ -42,7 +42,7 @@ private:
 
 private:
     G4NistManager *nist = nullptr;
-    G4Material *worldMat = nullptr;
+    G4Material *vacuum = nullptr;
     G4Material *al = nullptr;
     G4Material *ptp = nullptr;
     G4Material *dcf = nullptr;
